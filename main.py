@@ -1,11 +1,11 @@
+#!/usr/bin/env python3
+
 from chat import conversaton_handler
 from ohbot import *
 
-lang = input("What language do you want to use: ")
+lang = "en"
 
-while True:
-    prompt = input("User: ")
-    answer = conversaton_handler(prompt)
-    print(answer)
-    say(answer, lang)
-    wait(2)
+prompt = input("User: ")
+answer = conversaton_handler(prompt)
+print(answer)
+say(answer, lang, soundDelay=0.1)

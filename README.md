@@ -39,7 +39,8 @@ vim .env
 *Make sure you are in root by using the su root command and not sudo su*
 
 ```bash
-python3 main.py
+chmod +x run.sh
+./run.sh
 ```
 
 **7. Have fun with your new freaky assistant** :partying_face:

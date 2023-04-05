@@ -8,7 +8,7 @@ def chat_query(prompt):
     completions = openai.ChatCompletion.create(
         model=model_engine,
         messages=[{"role": "user", "content": prompt}],
-        max_tokens=2048,
+        max_tokens=50,
         n=1,
         temperature=0.5,
     )
