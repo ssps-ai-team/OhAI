@@ -52,4 +52,4 @@ python3 main.py
 
 - [ ] Add animations
 
-- [ ] Attempt to add streaming
+- [ ] Atempt to add streaming
