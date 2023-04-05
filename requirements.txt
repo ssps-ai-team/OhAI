@@ -1,0 +1,7 @@
+openai
+ohbot
+pyttsx3
+SpeechRecognition
+pyaudio
+pyserial
+lxml
