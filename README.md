@@ -7,7 +7,7 @@
 **1. Git clone the repo** :sheep:
 
 ```bash
-git clone https://github.com/ThatBlokeJosh/Ohbot.git
+git clone https://github.com/ThatBlokeJosh/OhAI.git
 ```
 
 **2. Add privileges to setup.sh** :imp:
@@ -54,3 +54,5 @@ chmod +x run.sh
 - [ ] Add animations
 
 - [ ] Atempt to add streaming
+
+*Made by [ThatBlokeJosh](https://github.com/ThatBlokeJosh), colaborators: [wiserat](https://github.com/wiserat)*
