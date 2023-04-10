@@ -1,15 +1,19 @@
-import pyttsx3
 import speech_recognition as sr
 from ohbot import *
 
+
 def recognize():
-    
+    for device_index in sr.Microphone().list_working_microphones():
+        m = sr.Microphone(device_index=device_index)
+        print(device_index)
+        break
+    else:
+        print("No working microphones found!")
     recognizer = sr.Recognizer()
     recognizer.energy_threshold = 32504.85796527251
     recognizer.dynamic_energy_threshold = True
     with sr.Microphone() as mic:
         audio = recognizer.listen(mic)
-
         text = recognizer.recognize_google(audio)
         text = text.lower()
 
