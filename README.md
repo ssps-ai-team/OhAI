@@ -47,7 +47,7 @@ chmod +x run.sh
 
 ## TODO :checkered_flag: :
 
-- [ ] Add voice activation
+- [*] Add voice activation
 
 - [ ] Add face tracking
 
