@@ -17,7 +17,7 @@ chmod +x setup.sh
 ./setup.sh
 ```
 
-**4. Add your api key to env.py** :notebook_with_decorative_cover:
+**3. Add your api key to env.py** :notebook_with_decorative_cover:
 
 *Make an account on openai account and get a key [here](https://platform.openai.com/account/api-keys)*
 
@@ -25,18 +25,18 @@ chmod +x setup.sh
 vim env.py # Add the key into the ""
 ```
 
-**5. Plugin the robot** :thinking:
+**4. Plugin the robot** :thinking:
 
 *I don't think this step needs any visual aid, just don't get freaked out by the robot.*
 
-**6. Run the code** :snake:
+**5. Run the code** :snake:
 
 ```bash
 chmod +x run.sh
 ./run.sh
 ```
 
-**7. Have fun with your new freaky assistant** :partying_face:
+**8. Have fun with your new freaky assistant** :partying_face:
 
 ## TODO :checkered_flag: :
 
