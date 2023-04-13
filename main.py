@@ -9,10 +9,9 @@ def main():
     lang = sys.argv[-1] # Get the language
     if lang == "cs":
         prompt = recognize("Davide", lang)
-        prompt += " Řekni odpověď v Češtině."
+        prompt += " Say the answer in Czech"
     elif lang == "en":
         prompt = recognize("David", lang)
-        prompt += " Say the answer in english."
     print(prompt)
     answer = chat(prompt) # Generate the response from the user
     print(answer) # Print the answer for debuging lol
